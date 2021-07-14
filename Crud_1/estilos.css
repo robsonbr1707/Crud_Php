@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(219, 219, 219);
+}
+/*===================Navegação==================*/
+
+header .navegacao{
+    background-color: rgb(22, 22, 22);
+}
+
+.navegacao li{
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.navegacao li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*===================Formulario Index==================*/
+
+#form_busca{
+    margin:20px;
+    text-align: center;
+}
+
+#form_busca #pesquisa{
+    height: 35px;
+    width: 50%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    font-size: 20px;
+}
+
+#form_busca input[type=submit]{
+    outline: none;
+    padding: 7px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 10px;
+    border:1px solid black;
+}
+
+#form_busca img{
+    width: 18px;
+}
+
+/*===================Formulario Criar==================*/
+
+
+.form{
+    margin:30px auto;
+    text-align: center;
+    width: 40%;
+    
+}
+
+.form input[type=text]{
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    border:1px solid black;
+    outline: none;
+    font-size: 17px;
+    margin:10px;
+}
+
+.caixa_checkbox{
+    width: 30%;
+    margin:20px auto;
+}
+
+
+ .titulo{
+    margin:10px;
+    border-bottom: 1px solid black;
+    font-style: italic;
+    font-size:25px;
+    text-align: center;
+}
+
+
+.form .inputs_right{
+    font-size: 17px;
+    text-align: right;
+
+}
+
+.form .inputs_center{
+    text-align: center;
+    margin: 5px;
+}
+
+.form input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    margin:5px;
+}
+
+
+.form input[type=submit]{
+    margin: 20px auto;
+    height: 35px;
+    width: 180px;
+    cursor:pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid black;
+    background: lightskyblue;
+}
+
+
+/*===================Tabela Index==================*/
+
+table{
+    width: 70%;
+    margin: auto;
+    color: white;
+    border-collapse: collapse;
+    background-color: black;
+    border-radius: 10px;
+}
+
+thead th{
+    padding: 15px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+tbody td{
+    text-align: center;
+    background-color: rgb(165, 165, 165);
+    border-bottom: 1px solid black;
+    
+}
+
+tbody .td_links{
+    width: 150px;
+}
+
+table button{
+    padding: 5px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+table .botao_editar{
+    background-color: lightskyblue;
+}
+
+table .botao_excluir{
+    background-color: red;
+}
+
+table td img{
+    width: 50px;
+    height: 50px;
+    padding-top: 4px;
+}
+
+
+/*===================Textos==================*/
+
+.text_center{
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+
+ .sucesso{
+    background: green;
+    padding: 15px;
+}
+
+
+.delete{
+    background: red;
+    padding: 15px;
+}
+
+
+/*===================Rodapé==================*/
+
+#rodape{
+   text-align: center;
+   margin: 15px;
+}
