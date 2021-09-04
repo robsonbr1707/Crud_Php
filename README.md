@@ -1,4 +1,4 @@
-# Cruds Com Php
+# Crud Com Php
  
-#Crud_1
+#Crud
 Um Simples Crud de fazer um registro com upload de imagem
